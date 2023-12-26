@@ -22,6 +22,3 @@ document.querySelector(".window__close").addEventListener("click", () => {
     );
   }, 500);
 });
-    background: url(images/back-main.png), no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
