@@ -11,3 +11,17 @@ $(document).ready(function(){
     }
   });
 });
+
+
+document.querySelector(".window__close").addEventListener("click", () => {
+  document.querySelector("body").style.display = "none";
+
+  setTimeout(() => {
+    window.alert(
+      "Oh No! What did you do? You've crashed my portfolio! Now you have to refresh to open the app again("
+    );
+  }, 500);
+});
+    background: url(images/back-main.png), no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
